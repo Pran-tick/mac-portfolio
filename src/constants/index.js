@@ -102,23 +102,23 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    items: ["React.js", "Next.js", "TypeScript", "EJS"],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    category: "Others",
+    items: ["Blender3D", "Adobe Premier Pro", "Figma"],
   },
   {
     category: "Styling",
     items: ["Tailwind CSS", "Sass", "CSS"],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    category: "Backend and Languages",
+    items: ["Node.js", "Express", "JavaScript", "Python"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "MySQL"],
   },
   {
     category: "Dev Tools",
