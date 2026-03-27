@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "About", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -218,52 +218,40 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Zentry Landing Page",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      windowPosition: "top-[2vh] left-5", // optional: Finder window position
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Zentry Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Developed a fully responsive modern UI/UX website using React.js, GSAP and Tailwind CSS, ensuring a seamless user experience across all devices.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "zentry.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://zentry-landing-page-sigma.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "zentry.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
+          imageUrl: "/images/ZENTRY3.png",
         },
       ],
     },
@@ -274,8 +262,8 @@ const WORK_LOCATION = {
       name: "AI Resume Analyzer",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-7",
+      position: "top-72 right-80",
+      windowPosition: "top-[80vh] left-7",
       children: [
         {
           id: 1,
@@ -297,7 +285,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://resume-analyzer-pi-ruddy.vercel.app/",
           position: "top-20 left-20",
         },
         {
@@ -309,26 +297,17 @@ const WORK_LOCATION = {
           position: "top-52 left-80",
           imageUrl: "/images/project-2.png",
         },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 left-5",
-        },
       ],
     },
 
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Mojito Landing Page",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      position: "top-10 left-90",
+      windowPosition: "top-[63vh] left-7",
       children: [
         {
           id: 1,
@@ -338,41 +317,192 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Developed a visually stunning landing page using GSAP for animations, ensuring a smooth and engaging user experience.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "mojito-landing-page.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://landing-page-gsap-rosy.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "mojito-landing-page.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
+          imageUrl: "/images/MOJITO2.png",
         },
       ],
     },
+    // ▶ Project 4
+{
+  id: 8,
+  name: "Saas Landing Page",
+  icon: "/images/folder.png",
+  kind: "folder",
+  position: "top-40 left-40",
+  windowPosition: "top-[15vh] left-30",
+  children: [
+    {
+      id: 1,
+      name: "Chat App Project.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-5 left-10",
+      description: [
+        "Developed a modern SaaS landing page using Next.js and TypeScript, ensuring high performance and scalability",
+      ],
+    },
+    {
+      id: 2,
+      name: "saas-landing-page.com",
+      icon: "/images/safari.png",
+      kind: "file",
+      fileType: "url",
+      href: "https://landingpage-azure-five.vercel.app/",
+      position: "top-10 right-20",
+    },
+    {
+      id: 3,
+      name: "saas-landing-page.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 right-80",
+      imageUrl: "/images/MICROSAAS1.png",
+    },
+  ],
+},
+
+// ▶ Project 5
+{
+  id: 9,
+  name: "Mood2Anime",
+  icon: "/images/folder.png",
+  kind: "folder",
+  position: "top-50 left-10",
+  windowPosition: "top-[35vh] left-12",
+  children: [
+    {
+      id: 1,
+      name: "Mood2Anime Project.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-5 right-10",
+      description: [
+        "Built a mood-based anime trailer recommendation platform, improving content discovery and achieving 100+ trailer displays per session on average.",
+      ],
+    },
+    {
+      id: 2,
+      name: "mood2anime.com",
+      icon: "/images/safari.png",
+      kind: "file",
+      fileType: "url",
+      href: "https://mood2anime-swart.vercel.app/",
+      position: "top-20 left-20",
+    },
+    {
+      id: 3,
+      name: "mood2anime.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 left-80",
+      imageUrl: "/images/MOOD2.png",
+    },
+  ],
+},
+
+// ▶ Project 6
+{
+  id: 10,
+  name: "Gaming PC Builder Course",
+  icon: "/images/folder.png",
+  kind: "folder",
+  position: "top-20 right-40",
+  windowPosition: "top-[10vh] right-10",
+  children: [
+    {
+      id: 1,
+      name: "Gaming PC Builder Course.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-5 left-10",
+      description: [
+        "This course is targeted towards anyone who wishes to save endless hours of researching and confusion about steps to building a PC. Whether you have a technical background or not, if you just want to get started and build, then you have found the very thing you were looking for.(I am the editor of this course.)",
+      ],
+    },
+    {
+      id: 2,
+      name: "gaming-pc-builder.com",
+      icon: "/images/safari.png",
+      kind: "file",
+      fileType: "url",
+      href: "https://www.udemy.com/course/build-a-gaming-pc-from-scratch/",
+      position: "top-10 right-20",
+    },
+    {
+      id: 3,
+      name: "gaming-pc-builder.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 right-80",
+      imageUrl: "/images/udemy 1.png",
+    },
+  ],
+},
+
+// ▶ Project 7
+{
+  id: 11,
+  name: "Hilink Landing Page",
+  icon: "/images/folder.png",
+  kind: "folder",
+  position: "top-70 right-20",
+  windowPosition: "top-[30vh] right-10",
+  children: [
+    {
+      id: 1,
+      name: "Hilink Landing Page Project.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-5 left-10",
+      description: [
+        "Developed a fully responsive modern UI/UX website using React.js, Next.js, and Tailwind CSS, ensuring a seamless user experience across all devices.",
+      ],
+    },
+    {
+      id: 2,
+      name: "hilink-landing-page.com",
+      icon: "/images/safari.png",
+      kind: "file",
+      fileType: "url",
+      href: "https://hilink-landingpage.vercel.app/",
+      position: "top-10 right-20",
+    },
+    {
+      id: 3,
+      name: "hilink-landing-page.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 right-80",
+      imageUrl: "/images/HILINK2.png",
+    },
+  ],
+},
   ],
 };
 
@@ -418,13 +548,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/prantikprof.jpeg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
-      ],
+  `I am Prantik Verma, a developer with a knack for creating magic on and off the screen. I am passionate, proactive, and creative, actively seeking opportunities in dynamic projects. With an insatiable appetite for innovation, I bring a unique blend of vision.
+
+Also, I am an undergraduate student pursuing my bachelor’s in Computer Science and Engineering. When I’m not thinking in languages and frameworks, I’m editing videos, playing the ukulele, or finding perspective in the mountains while listening to '80s bolly music.`,
+],
     },
   ],
 };
